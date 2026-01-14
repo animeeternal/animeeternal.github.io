@@ -44,7 +44,7 @@
       {
         "id": "drop-1768297641866",
         "kind": "regular",
-        "item": "x1 Avatar Soul",
+        "item": "Avatar Soul",
         "chances": "50%",
         "image": "https://i.postimg.cc/Nfn9FsZr/Rewards_212907.png",
         "quantity": "x1"
@@ -161,7 +161,7 @@
       {
         "id": "drop-1768297509266",
         "kind": "regular",
-        "item": "x700 Coins",
+        "item": "x7K Coins",
         "chances": "100%",
         "image": "https://i.postimg.cc/T3WyD8Xp/Rewards_212950.png",
         "quantity": "x700"
@@ -169,31 +169,39 @@
       {
         "id": "drop-1768297548539",
         "kind": "regular",
-        "item": "Saiyan Token",
+        "item": "Demon Fruit Token",
         "chances": "10%",
-        "image": "https://i.postimg.cc/7YJttV8J/Token_Saiyan.png",
+        "image": "https://i.postimg.cc/fb86QRHk/Token_Demon.png",
         "quantity": "x3-x5"
       },
       {
         "id": "drop-1768297591258",
         "kind": "regular",
-        "item": "Dragon Race Token",
+        "item": "Pirate Crew Token",
         "chances": "10%",
-        "image": "https://i.postimg.cc/J4tCrJf6/Token_Dragon_Race.png",
+        "image": "https://i.postimg.cc/QMfRZd6t/Token_Pirate.png",
         "quantity": "x3-x5"
       },
       {
         "id": "drop-1768297613098",
         "kind": "regular",
-        "item": "x15 Exp",
+        "item": "Haki Token",
+        "chances": "10%",
+        "image": "https://i.postimg.cc/Gm0GLPBd/Token_Haki.png",
+        "quantity": "x3-x5"
+      },
+      {
+        "id": "drop-1768297613098",
+        "kind": "regular",
+        "item": "x30 Exp",
         "chances": "100%",
         "image": "https://i.postimg.cc/pXShrW3D/Rewards_212946.png",
-        "quantity": "x15"
+        "quantity": "x30"
       },
       {
         "id": "drop-1768297641866",
         "kind": "regular",
-        "item": "x1 Avatar Soul",
+        "item": "Avatar Soul",
         "chances": "50%",
         "image": "https://i.postimg.cc/Nfn9FsZr/Rewards_212907.png",
         "quantity": "x1"
@@ -201,17 +209,21 @@
       {
         "id": "drop-1768297667611",
         "kind": "accessory",
-        "item": "4 Star Hat",
+        "item": "Armless Cloak",
         "chances": "25%",
-        "image": "https://i.postimg.cc/CKGZ60Q1/Accessories_225724.png",
+        "image": "https://i.postimg.cc/9fd4N2n0/Accessories_225743.png",
         "accessoryDetails": [
           {
             "tier": "Common",
             "chances": "36%",
             "stats": [
               {
-                "type": "Coins",
-                "value": "0.1"
+                "type": "Energy",
+                "value": "0.01x"
+              },
+              {
+                "type": "Exp",
+                "value": "0.01x"
               }
             ]
           },
@@ -220,8 +232,12 @@
             "chances": "31.75%",
             "stats": [
               {
-                "type": "Coins",
-                "value": "0.15"
+                "type": "Energy",
+                "value": "0.015x"
+              },
+              {
+                "type": "Exp",
+                "value": "0.015x"
               }
             ]
           },
@@ -230,8 +246,12 @@
             "chances": "15%",
             "stats": [
               {
-                "type": "Coins",
-                "value": "0.2"
+                "type": "Energy",
+                "value": "0.02x"
+              },
+              {
+                "type": "Exp",
+                "value": "0.02x"
               }
             ]
           },
@@ -240,8 +260,12 @@
             "chances": "10%",
             "stats": [
               {
-                "type": "Coins",
-                "value": "0.25"
+                "type": "Energy",
+                "value": "0.025x"
+              },
+              {
+                "type": "Exp",
+                "value": "0.025x"
               }
             ]
           },
@@ -250,8 +274,12 @@
             "chances": "5%",
             "stats": [
               {
-                "type": "Coins",
-                "value": "0.3"
+                "type": "Energy",
+                "value": "0.03x"
+              },
+              {
+                "type": "Exp",
+                "value": "0.03x"
               }
             ]
           },
@@ -260,8 +288,12 @@
             "chances": "1%",
             "stats": [
               {
-                "type": "Coins",
-                "value": "0.35"
+                "type": "Energy",
+                "value": "0.035x"
+              },
+              {
+                "type": "Exp",
+                "value": "0.035x"
               }
             ]
           },
@@ -270,8 +302,12 @@
             "chances": "0.75%",
             "stats": [
               {
-                "type": "Coins",
-                "value": "0.5"
+                "type": "Energy",
+                "value": "0.05x"
+              },
+              {
+                "type": "Exp",
+                "value": "0.05x"
               }
             ]
           },
@@ -280,8 +316,12 @@
             "chances": "0.5%",
             "stats": [
               {
-                "type": "Coins",
-                "value": "0.75"
+                "type": "Energy",
+                "value": "0.075x"
+              },
+              {
+                "type": "Exp",
+                "value": "0.075x"
               }
             ]
           }
@@ -290,9 +330,9 @@
       {
         "id": "drop-1768297838562",
         "kind": "regular",
-        "item": "Luck Aura",
+        "item": "Red Emperor Aura",
         "chances": "1%",
-        "image": "https://i.postimg.cc/G2WxzGLn/Aura_151528.png",
+        "image": "https://i.postimg.cc/Hxq93XYd/Aura_151557.png",
         "quantity": "x1"
       }
     ]

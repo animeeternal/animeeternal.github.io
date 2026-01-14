@@ -271,7 +271,7 @@
       "method": "Mob",
       "name": "Ichige",
       "rank": "Rank D",
-      "hp": "1B"
+      "hp": "2.5qd"
     },
     "weaponStats": [
       {
@@ -310,7 +310,7 @@
       "method": "Mob",
       "name": "Zentsu",
       "rank": "Rank C",
-      "hp": "2B"
+      "hp": "2.49Sp"
     },
     "weaponStats": [
       {
@@ -349,7 +349,7 @@
       "method": "Mob",
       "name": "Beater",
       "rank": "Rank S",
-      "hp": "2B"
+      "hp": "9.67QnV / 9.67e78"
     },
     "weaponStats": [
       {
@@ -388,7 +388,7 @@
       "method": "Mob",
       "name": "Arther",
       "rank": "Rank D",
-      "hp": "25B"
+      "hp": "16.3DTG / 1.63e100"
     },
     "weaponStats": [
       {
@@ -426,8 +426,8 @@
     "get": {
       "method": "Mob",
       "name": "Spook-Suke",
-      "rank": "-",
-      "hp": "15B"
+      "rank": "Halloween",
+      "hp": "388tQGNT / 3.88e164"
     },
     "weaponStats": [
       {
@@ -760,7 +760,9 @@
     "description": "",
     "get": {
       "method": "Mob",
-      "name": ""
+      "name": "Elfchigo",
+      "rank": "SSS",
+      "hp": "69 QNSXGNTL / 6.9e199"
     },
     "weaponStats": [
       {
@@ -785,8 +787,8 @@
     "location": "Christmas",
     "description": "",
     "get": {
-      "method": "Mob",
-      "name": ""
+      "method": "Gachas",
+      "name": "Christmas Craft"
     },
     "weaponStats": [
       {
@@ -816,7 +818,9 @@
     "description": "",
     "get": {
       "method": "Mob",
-      "name": ""
+      "name": "Rorodeer",
+      "rank": "SSS",
+      "hp": "8.23DSXGNTL / 8.23e189"
     },
     "weaponStats": [
       {
@@ -838,7 +842,9 @@
     "description": "",
     "get": {
       "method": "Mob",
-      "name": ""
+      "name": "Nezudeer",
+      "rank": "SSS",
+      "hp": "310sxQGNT / 3.1e173"
     },
     "weaponStats": [
       {
@@ -860,7 +866,9 @@
     "description": "",
     "get": {
       "method": "Mob",
-      "name": ""
+      "name": "GoHoHo",
+      "rank": "SSS",
+      "hp": "44.6OSXGNTL / 4.46e208"
     },
     "weaponStats": [
       {
@@ -877,5 +885,29 @@
       }
     ],
     "id": "item-1768315332862"
+  },
+  {
+    "name": "Demon Crumb Slayer",
+    "imageUrl": "",
+    "tier": "Christmas",
+    "type": "Swords",
+    "location": "Christmas",
+    "description": "",
+    "get": {
+      "method": "Mob",
+      "name": "Ginsta",
+      "rank": "SSS",
+      "hp": "66.8NQQGNT / 6.68e181"
+    },
+    "weaponStats": [
+      {
+        "type": "Drop Amount",
+        "value": "5%"
+      }
+    ],
+    "star1Stats": [],
+    "star2Stats": [],
+    "star3Stats": [],
+    "id": "item-1768400936693"
   }
 ]
