@@ -1,10 +1,104 @@
 
 [
   {
-    "id": "mob-saiba",
-    "name": "Saibaman",
-    "description": "Small green creatures grown from seeds.",
-    "imageUrl": "https://picsum.photos/seed/mob-1/300/300",
-    "tier": "Common"
+    "id": "mob-kriluni",
+    "name": "Kriluni",
+    "imageUrl": "https://i.postimg.cc/L6hLBmq0/Avatars-140016.png",
+    "tier": "Common",
+    "location": "World-1",
+    "stats": {
+      "hp": "500"
+    },
+    "drops": [
+      { "item": "Coins", "image": "https://i.postimg.cc/T3WyD8Xp/Rewards_212950.png", "chances": "100%" },
+      { "item": "Exp", "image": "https://i.postimg.cc/pXShrW3D/Rewards_212946.png", "chances": "100%" },
+      { "item": "Dragon Race Token", "image": "https://i.postimg.cc/J4tCrJf6/Token_Dragon_Race.png", "chances": "1%" }
+    ]
+  },
+  {
+    "id": "mob-ymicho",
+    "name": "Ymicho",
+    "imageUrl": "https://i.postimg.cc/c46wMdKz/Avatars-140126.png",
+    "tier": "Uncommon",
+    "location": "World-1",
+    "stats": {
+      "hp": "1.2K"
+    },
+    "drops": [
+      { "item": "Coins", "image": "https://i.postimg.cc/T3WyD8Xp/Rewards_212950.png", "chances": "100%" },
+      { "item": "Exp", "image": "https://i.postimg.cc/pXShrW3D/Rewards_212946.png", "chances": "100%" },
+      { "item": "Saiyan Token", "image": "https://i.postimg.cc/7YJttV8J/Token_Saiyan.png", "chances": "1%" }
+    ]
+  },
+  {
+    "id": "mob-tian-shan",
+    "name": "Tian Shan",
+    "imageUrl": "https://i.postimg.cc/L6hLBmqG/Avatars-142409.png",
+    "tier": "Rare",
+    "location": "World-1",
+    "stats": {
+      "hp": "5.5K"
+    },
+    "drops": [
+      { "item": "Coins", "image": "https://i.postimg.cc/T3WyD8Xp/Rewards_212950.png", "chances": "100%" },
+      { "item": "Exp", "image": "https://i.postimg.cc/pXShrW3D/Rewards_212946.png", "chances": "100%" }
+    ]
+  },
+  {
+    "id": "mob-nomi",
+    "name": "Nomi",
+    "imageUrl": "https://i.postimg.cc/Gh9GJb8r/Avatars-142550.png",
+    "tier": "Common",
+    "location": "World-2",
+    "stats": {
+      "hp": "25K"
+    },
+    "drops": [
+      { "item": "Coins", "image": "https://i.postimg.cc/T3WyD8Xp/Rewards_212950.png", "chances": "100%" },
+      { "item": "Exp", "image": "https://i.postimg.cc/pXShrW3D/Rewards_212946.png", "chances": "100%" }
+    ]
+  },
+  {
+    "id": "mob-usup",
+    "name": "Usup",
+    "imageUrl": "https://i.postimg.cc/9FzZtcRW/Avatars-142558.png",
+    "tier": "Uncommon",
+    "location": "World-2",
+    "stats": {
+      "hp": "150K"
+    },
+    "drops": [
+      { "item": "Coins", "image": "https://i.postimg.cc/T3WyD8Xp/Rewards_212950.png", "chances": "100%" },
+      { "item": "Exp", "image": "https://i.postimg.cc/pXShrW3D/Rewards_212946.png", "chances": "100%" }
+    ]
+  },
+  {
+    "id": "mob-ichige",
+    "name": "Ichige",
+    "imageUrl": "https://i.postimg.cc/dtXd5gr1/Avatars-142643.png",
+    "tier": "Epic",
+    "location": "World-3",
+    "stats": {
+      "hp": "1B"
+    },
+    "drops": [
+      { "item": "Coins", "image": "https://i.postimg.cc/T3WyD8Xp/Rewards_212950.png", "chances": "100%" },
+      { "item": "Exp", "image": "https://i.postimg.cc/pXShrW3D/Rewards_212946.png", "chances": "100%" },
+      { "item": "Zangesto Sword", "image": "https://i.postimg.cc/g0gfb2Mj/Token-Sword.png", "chances": "0.1%" }
+    ]
+  },
+  {
+    "id": "mob-uryua",
+    "name": "Uryua",
+    "imageUrl": "https://i.postimg.cc/65SRMFny/Avatars-142649.png",
+    "tier": "Rare",
+    "location": "World-3",
+    "stats": {
+      "hp": "500M"
+    },
+    "drops": [
+      { "item": "Coins", "image": "https://i.postimg.cc/T3WyD8Xp/Rewards_212950.png", "chances": "100%" },
+      { "item": "Exp", "image": "https://i.postimg.cc/pXShrW3D/Rewards_212946.png", "chances": "100%" }
+    ]
   }
 ]

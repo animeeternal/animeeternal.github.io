@@ -1,12 +1,300 @@
-
 [
   {
-    "id": "boss-cell",
-    "name": "Perfect Bio-Droid",
-    "description": "A creature made of the strongest fighters' cells.",
-    "imageUrl": "https://picsum.photos/seed/boss-cell/300/300",
-    "location": "Cell Games Arena",
-    "health": "500M",
-    "drops": ["Cell Nucleus", "Perfect DNA"]
+    "id": "boss-kid-kohan",
+    "name": "Kid Kohan",
+    "location": "World-1",
+    "tier": "SS",
+    "health": "2.5qd",
+    "imageUrl": "https://i.postimg.cc/7Yb0MqGw/Avatars-142436.png",
+    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "description": "One of the Four Emperors of the Sea. His Haki is powerful enough to split the heavens.",
+    "drops": [
+      {
+        "id": "drop-1768297509266",
+        "kind": "regular",
+        "item": "x700 Coins",
+        "chances": "100%",
+        "image": "https://i.postimg.cc/T3WyD8Xp/Rewards_212950.png",
+        "quantity": "x700"
+      },
+      {
+        "id": "drop-1768297548539",
+        "kind": "regular",
+        "item": "Saiyan Token",
+        "chances": "10%",
+        "image": "https://i.postimg.cc/7YJttV8J/Token_Saiyan.png",
+        "quantity": "x3-x5"
+      },
+      {
+        "id": "drop-1768297591258",
+        "kind": "regular",
+        "item": "Dragon Race Token",
+        "chances": "10%",
+        "image": "https://i.postimg.cc/J4tCrJf6/Token_Dragon_Race.png",
+        "quantity": "x3-x5"
+      },
+      {
+        "id": "drop-1768297613098",
+        "kind": "regular",
+        "item": "x15 Exp",
+        "chances": "100%",
+        "image": "https://i.postimg.cc/pXShrW3D/Rewards_212946.png",
+        "quantity": "x15"
+      },
+      {
+        "id": "drop-1768297641866",
+        "kind": "regular",
+        "item": "x1 Avatar Soul",
+        "chances": "50%",
+        "image": "https://i.postimg.cc/Nfn9FsZr/Rewards_212907.png",
+        "quantity": "x1"
+      },
+      {
+        "id": "drop-1768297667611",
+        "kind": "accessory",
+        "item": "4 Star Hat",
+        "chances": "25%",
+        "image": "https://i.postimg.cc/CKGZ60Q1/Accessories_225724.png",
+        "accessoryDetails": [
+          {
+            "tier": "Common",
+            "chances": "36%",
+            "stats": [
+              {
+                "type": "Coins",
+                "value": "0.1"
+              }
+            ]
+          },
+          {
+            "tier": "Uncommon",
+            "chances": "31.75%",
+            "stats": [
+              {
+                "type": "Coins",
+                "value": "0.15"
+              }
+            ]
+          },
+          {
+            "tier": "Rare",
+            "chances": "15%",
+            "stats": [
+              {
+                "type": "Coins",
+                "value": "0.2"
+              }
+            ]
+          },
+          {
+            "tier": "Epic",
+            "chances": "10%",
+            "stats": [
+              {
+                "type": "Coins",
+                "value": "0.25"
+              }
+            ]
+          },
+          {
+            "tier": "Legendary",
+            "chances": "5%",
+            "stats": [
+              {
+                "type": "Coins",
+                "value": "0.3"
+              }
+            ]
+          },
+          {
+            "tier": "Mythical",
+            "chances": "1%",
+            "stats": [
+              {
+                "type": "Coins",
+                "value": "0.35"
+              }
+            ]
+          },
+          {
+            "tier": "Phantom",
+            "chances": "0.75%",
+            "stats": [
+              {
+                "type": "Coins",
+                "value": "0.5"
+              }
+            ]
+          },
+          {
+            "tier": "Supreme",
+            "chances": "0.5%",
+            "stats": [
+              {
+                "type": "Coins",
+                "value": "0.75"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "drop-1768297838562",
+        "kind": "regular",
+        "item": "Luck Aura",
+        "chances": "1%",
+        "image": "https://i.postimg.cc/G2WxzGLn/Aura_151528.png",
+        "quantity": "x1"
+      }
+    ]
+  },
+  {
+    "id": "boss-shanks",
+    "name": "Shanks",
+    "location": "World-2",
+    "tier": "SS",
+    "health": "5sx",
+    "imageUrl": "https://i.postimg.cc/VLTMK2nf/Avatars-142623.png",
+    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "description": "One of the Four Emperors of the Sea. His Haki is powerful enough to split the heavens.",
+    "drops": [
+      {
+        "id": "drop-1768297509266",
+        "kind": "regular",
+        "item": "x700 Coins",
+        "chances": "100%",
+        "image": "https://i.postimg.cc/T3WyD8Xp/Rewards_212950.png",
+        "quantity": "x700"
+      },
+      {
+        "id": "drop-1768297548539",
+        "kind": "regular",
+        "item": "Saiyan Token",
+        "chances": "10%",
+        "image": "https://i.postimg.cc/7YJttV8J/Token_Saiyan.png",
+        "quantity": "x3-x5"
+      },
+      {
+        "id": "drop-1768297591258",
+        "kind": "regular",
+        "item": "Dragon Race Token",
+        "chances": "10%",
+        "image": "https://i.postimg.cc/J4tCrJf6/Token_Dragon_Race.png",
+        "quantity": "x3-x5"
+      },
+      {
+        "id": "drop-1768297613098",
+        "kind": "regular",
+        "item": "x15 Exp",
+        "chances": "100%",
+        "image": "https://i.postimg.cc/pXShrW3D/Rewards_212946.png",
+        "quantity": "x15"
+      },
+      {
+        "id": "drop-1768297641866",
+        "kind": "regular",
+        "item": "x1 Avatar Soul",
+        "chances": "50%",
+        "image": "https://i.postimg.cc/Nfn9FsZr/Rewards_212907.png",
+        "quantity": "x1"
+      },
+      {
+        "id": "drop-1768297667611",
+        "kind": "accessory",
+        "item": "4 Star Hat",
+        "chances": "25%",
+        "image": "https://i.postimg.cc/CKGZ60Q1/Accessories_225724.png",
+        "accessoryDetails": [
+          {
+            "tier": "Common",
+            "chances": "36%",
+            "stats": [
+              {
+                "type": "Coins",
+                "value": "0.1"
+              }
+            ]
+          },
+          {
+            "tier": "Uncommon",
+            "chances": "31.75%",
+            "stats": [
+              {
+                "type": "Coins",
+                "value": "0.15"
+              }
+            ]
+          },
+          {
+            "tier": "Rare",
+            "chances": "15%",
+            "stats": [
+              {
+                "type": "Coins",
+                "value": "0.2"
+              }
+            ]
+          },
+          {
+            "tier": "Epic",
+            "chances": "10%",
+            "stats": [
+              {
+                "type": "Coins",
+                "value": "0.25"
+              }
+            ]
+          },
+          {
+            "tier": "Legendary",
+            "chances": "5%",
+            "stats": [
+              {
+                "type": "Coins",
+                "value": "0.3"
+              }
+            ]
+          },
+          {
+            "tier": "Mythical",
+            "chances": "1%",
+            "stats": [
+              {
+                "type": "Coins",
+                "value": "0.35"
+              }
+            ]
+          },
+          {
+            "tier": "Phantom",
+            "chances": "0.75%",
+            "stats": [
+              {
+                "type": "Coins",
+                "value": "0.5"
+              }
+            ]
+          },
+          {
+            "tier": "Supreme",
+            "chances": "0.5%",
+            "stats": [
+              {
+                "type": "Coins",
+                "value": "0.75"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "drop-1768297838562",
+        "kind": "regular",
+        "item": "Luck Aura",
+        "chances": "1%",
+        "image": "https://i.postimg.cc/G2WxzGLn/Aura_151528.png",
+        "quantity": "x1"
+      }
+    ]
   }
 ]

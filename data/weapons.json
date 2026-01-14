@@ -1,10 +1,881 @@
-
 [
   {
-    "id": "weapon-1",
-    "name": "Z-Sword",
-    "description": "An incredibly heavy sword embedded in stone.",
-    "imageUrl": "https://picsum.photos/seed/weapon-1/300/300",
-    "tier": "Exotic"
+    "id": "wpn-1",
+    "name": "Bloodthorn",
+    "location": "World-2",
+    "type": "Swords",
+    "get": {
+      "method": "Gachas",
+      "name": "Swords"
+    },
+    "weaponStats": [
+      {
+        "type": "Damage",
+        "value": "0.25"
+      }
+    ],
+    "star1Stats": [
+      {
+        "type": "Damage",
+        "value": "0.5"
+      }
+    ],
+    "star2Stats": [
+      {
+        "type": "Damage",
+        "value": "0.75"
+      }
+    ],
+    "star3Stats": [
+      {
+        "type": "Damage",
+        "value": "1.25"
+      }
+    ],
+    "imageUrl": "",
+    "tier": "Common",
+    "description": "An incredibly heavy sword embedded in a mountain."
+  },
+  {
+    "id": "wpn-2",
+    "name": "Eclipse Warden",
+    "location": "World-2",
+    "type": "Swords",
+    "get": {
+      "method": "Gachas",
+      "name": "Swords",
+      "rank": "SSS",
+      "hp": "250Qn"
+    },
+    "weaponStats": [
+      {
+        "type": "Damage",
+        "value": "0.45"
+      }
+    ],
+    "star1Stats": [
+      {
+        "type": "Damage",
+        "value": "0.9"
+      }
+    ],
+    "star2Stats": [
+      {
+        "type": "Damage",
+        "value": "1.35"
+      }
+    ],
+    "star3Stats": [
+      {
+        "type": "Damage",
+        "value": "2.25"
+      }
+    ],
+    "imageUrl": "",
+    "tier": "Uncommon",
+    "description": "A cursed blade that hunger for souls."
+  },
+  {
+    "name": "Obsidian Reaver",
+    "imageUrl": "",
+    "tier": "Rare",
+    "type": "Swords",
+    "location": "World-2",
+    "description": "",
+    "get": {
+      "method": "Gachas",
+      "name": "Swords"
+    },
+    "weaponStats": [
+      {
+        "type": "Damage",
+        "value": "0.75"
+      }
+    ],
+    "star1Stats": [
+      {
+        "type": "Damage",
+        "value": "1.5"
+      }
+    ],
+    "star2Stats": [
+      {
+        "type": "Damage",
+        "value": "2.25"
+      }
+    ],
+    "star3Stats": [
+      {
+        "type": "Damage",
+        "value": "3.75"
+      }
+    ],
+    "id": "item-1768313161110"
+  },
+  {
+    "name": "Aquarius Edge",
+    "imageUrl": "",
+    "tier": "Epic",
+    "type": "Swords",
+    "location": "World-2",
+    "description": "",
+    "get": {
+      "method": "Gachas",
+      "name": "Swods"
+    },
+    "weaponStats": [
+      {
+        "type": "Damage",
+        "value": "1"
+      }
+    ],
+    "star1Stats": [
+      {
+        "type": "Damage",
+        "value": "2"
+      }
+    ],
+    "star2Stats": [
+      {
+        "type": "Damage",
+        "value": "3"
+      }
+    ],
+    "star3Stats": [
+      {
+        "type": "Damage",
+        "value": "4"
+      }
+    ],
+    "id": "item-1768313197470"
+  },
+  {
+    "name": "Doomsoul",
+    "imageUrl": "",
+    "tier": "Legendary",
+    "type": "Swords",
+    "location": "World-2",
+    "description": "",
+    "get": {
+      "method": "Gachas",
+      "name": "Swords"
+    },
+    "weaponStats": [
+      {
+        "type": "Damage",
+        "value": "1.25"
+      }
+    ],
+    "star1Stats": [
+      {
+        "type": "Damage",
+        "value": "2.5"
+      }
+    ],
+    "star2Stats": [
+      {
+        "type": "Damage",
+        "value": "3.75"
+      }
+    ],
+    "star3Stats": [
+      {
+        "type": "Damage",
+        "value": "6.25"
+      }
+    ],
+    "id": "item-1768313255414"
+  },
+  {
+    "name": "Redmourne",
+    "imageUrl": "",
+    "tier": "Mythical",
+    "type": "Swords",
+    "location": "World-2",
+    "description": "",
+    "get": {
+      "method": "Gachas",
+      "name": "Swords"
+    },
+    "weaponStats": [
+      {
+        "type": "Damage",
+        "value": "1.5"
+      }
+    ],
+    "star1Stats": [
+      {
+        "type": "Damage",
+        "value": "3"
+      }
+    ],
+    "star2Stats": [
+      {
+        "type": "Damage",
+        "value": "4.5"
+      }
+    ],
+    "star3Stats": [
+      {
+        "type": "Damage",
+        "value": "7.5"
+      }
+    ],
+    "id": "item-1768313285655"
+  },
+  {
+    "name": "Venomstrike",
+    "imageUrl": "",
+    "tier": "Phantom",
+    "type": "Swords",
+    "location": "World-2",
+    "description": "",
+    "get": {
+      "method": "Gachas",
+      "name": "Swords"
+    },
+    "weaponStats": [
+      {
+        "type": "Damage",
+        "value": "2"
+      }
+    ],
+    "star1Stats": [
+      {
+        "type": "Damage",
+        "value": "4"
+      }
+    ],
+    "star2Stats": [
+      {
+        "type": "Damage",
+        "value": "6"
+      }
+    ],
+    "star3Stats": [
+      {
+        "type": "Damage",
+        "value": "10"
+      }
+    ],
+    "id": "item-1768313311374"
+  },
+  {
+    "name": "Zangesto",
+    "imageUrl": "",
+    "tier": "Rare",
+    "type": "Swords",
+    "location": "World-3",
+    "description": "",
+    "get": {
+      "method": "Mob",
+      "name": "Ichige",
+      "rank": "Rank D",
+      "hp": "1B"
+    },
+    "weaponStats": [
+      {
+        "type": "Energy",
+        "value": "0.05x"
+      }
+    ],
+    "star1Stats": [
+      {
+        "type": "Energy",
+        "value": "0.1x"
+      }
+    ],
+    "star2Stats": [
+      {
+        "type": "Energy",
+        "value": "0.15x"
+      }
+    ],
+    "star3Stats": [
+      {
+        "type": "Energy",
+        "value": "0.25x"
+      }
+    ],
+    "id": "item-1768313491303"
+  },
+  {
+    "name": "Yellow Nichirin",
+    "imageUrl": "",
+    "tier": "Legendary",
+    "type": "Swords",
+    "location": "World-5",
+    "description": "",
+    "get": {
+      "method": "Mob",
+      "name": "Zentsu",
+      "rank": "Rank C",
+      "hp": "2B"
+    },
+    "weaponStats": [
+      {
+        "type": "Energy",
+        "value": "0.075x"
+      }
+    ],
+    "star1Stats": [
+      {
+        "type": "Energy",
+        "value": "0.15x"
+      }
+    ],
+    "star2Stats": [
+      {
+        "type": "Energy",
+        "value": "0.225x"
+      }
+    ],
+    "star3Stats": [
+      {
+        "type": "Energy",
+        "value": "0.375x"
+      }
+    ],
+    "id": "item-1768313598296"
+  },
+  {
+    "name": "Lucidator",
+    "imageUrl": "",
+    "tier": "Mythical",
+    "type": "Swords",
+    "location": "World-15",
+    "description": "",
+    "get": {
+      "method": "Mob",
+      "name": "Beater",
+      "rank": "Rank S",
+      "hp": "2B"
+    },
+    "weaponStats": [
+      {
+        "type": "Energy",
+        "value": "0.125x"
+      }
+    ],
+    "star1Stats": [
+      {
+        "type": "Energy",
+        "value": "0.25x"
+      }
+    ],
+    "star2Stats": [
+      {
+        "type": "Energy",
+        "value": "0.375x"
+      }
+    ],
+    "star3Stats": [
+      {
+        "type": "Energy",
+        "value": "0.625x"
+      }
+    ],
+    "id": "item-1768313646392"
+  },
+  {
+    "name": "Excalibur",
+    "imageUrl": "",
+    "tier": "Phantom",
+    "type": "Swords",
+    "location": "World-19",
+    "description": "",
+    "get": {
+      "method": "Mob",
+      "name": "Arther",
+      "rank": "Rank D",
+      "hp": "25B"
+    },
+    "weaponStats": [
+      {
+        "type": "Energy",
+        "value": "0.2x"
+      }
+    ],
+    "star1Stats": [
+      {
+        "type": "Energy",
+        "value": "0.4x"
+      }
+    ],
+    "star2Stats": [
+      {
+        "type": "Energy",
+        "value": "0.6x"
+      }
+    ],
+    "star3Stats": [
+      {
+        "type": "Energy",
+        "value": "1x"
+      }
+    ],
+    "id": "item-1768313690465"
+  },
+  {
+    "name": "Overdrive Saw",
+    "imageUrl": "",
+    "tier": "Halloween",
+    "type": "Swords",
+    "location": "Halloween",
+    "description": "",
+    "get": {
+      "method": "Mob",
+      "name": "Spook-Suke",
+      "rank": "-",
+      "hp": "15B"
+    },
+    "weaponStats": [
+      {
+        "type": "Energy",
+        "value": "0.3x"
+      }
+    ],
+    "star1Stats": [
+      {
+        "type": "Energy",
+        "value": "0.6x"
+      }
+    ],
+    "star2Stats": [
+      {
+        "type": "Energy",
+        "value": "0.9x"
+      }
+    ],
+    "star3Stats": [
+      {
+        "type": "Energy",
+        "value": "1.5x"
+      }
+    ],
+    "id": "item-1768313753289"
+  },
+  {
+    "name": "Venomleaf",
+    "imageUrl": "",
+    "tier": "Common",
+    "type": "Scythes",
+    "location": "World-21",
+    "description": "",
+    "get": {
+      "method": "Gachas",
+      "name": "Scythes"
+    },
+    "weaponStats": [
+      {
+        "type": "Damage",
+        "value": "0.75"
+      }
+    ],
+    "star1Stats": [
+      {
+        "type": "Damage",
+        "value": "1.5"
+      }
+    ],
+    "star2Stats": [
+      {
+        "type": "Damage",
+        "value": "2.25"
+      }
+    ],
+    "star3Stats": [
+      {
+        "type": "Damage",
+        "value": "3.75"
+      }
+    ],
+    "id": "item-1768313966754"
+  },
+  {
+    "name": "Cryoscythes",
+    "imageUrl": "",
+    "tier": "Uncommon",
+    "type": "Scythes",
+    "location": "World-21",
+    "description": "",
+    "get": {
+      "method": "Gachas",
+      "name": "Scythes"
+    },
+    "weaponStats": [
+      {
+        "type": "Damage",
+        "value": "1"
+      }
+    ],
+    "star1Stats": [
+      {
+        "type": "Damage",
+        "value": "2"
+      }
+    ],
+    "star2Stats": [
+      {
+        "type": "Damage",
+        "value": "3"
+      }
+    ],
+    "star3Stats": [
+      {
+        "type": "Damage",
+        "value": "4"
+      }
+    ],
+    "id": "item-1768313995825"
+  },
+  {
+    "name": "Toxinfang",
+    "imageUrl": "",
+    "tier": "Rare",
+    "type": "Scythes",
+    "location": "World-21",
+    "description": "",
+    "get": {
+      "method": "Gachas",
+      "name": "Scythes"
+    },
+    "weaponStats": [
+      {
+        "type": "Damage",
+        "value": "1.75"
+      }
+    ],
+    "star1Stats": [
+      {
+        "type": "Damage",
+        "value": "3.5"
+      }
+    ],
+    "star2Stats": [
+      {
+        "type": "Damage",
+        "value": "5.25"
+      }
+    ],
+    "star3Stats": [
+      {
+        "type": "Damage",
+        "value": "8.75"
+      }
+    ],
+    "id": "item-1768314031082"
+  },
+  {
+    "name": "Crimson Thorn",
+    "imageUrl": "",
+    "tier": "Epic",
+    "type": "Scythes",
+    "location": "World-21",
+    "description": "",
+    "get": {
+      "method": "Gachas",
+      "name": "Scythes"
+    },
+    "weaponStats": [
+      {
+        "type": "Damage",
+        "value": "2.2"
+      }
+    ],
+    "star1Stats": [
+      {
+        "type": "Damage",
+        "value": "4.4"
+      }
+    ],
+    "star2Stats": [
+      {
+        "type": "Damage",
+        "value": "6.6"
+      }
+    ],
+    "star3Stats": [
+      {
+        "type": "Damage",
+        "value": "11"
+      }
+    ],
+    "id": "item-1768314077794"
+  },
+  {
+    "name": "Bonehowl",
+    "imageUrl": "",
+    "tier": "Legendary",
+    "type": "Scythes",
+    "location": "World-21",
+    "description": "",
+    "get": {
+      "method": "Gachas",
+      "name": "Scythes"
+    },
+    "weaponStats": [
+      {
+        "type": "Damage",
+        "value": "2.75"
+      }
+    ],
+    "star1Stats": [
+      {
+        "type": "Damage",
+        "value": "5.5"
+      }
+    ],
+    "star2Stats": [
+      {
+        "type": "Damage",
+        "value": "8.25"
+      }
+    ],
+    "star3Stats": [
+      {
+        "type": "Damage",
+        "value": "13.75"
+      }
+    ],
+    "id": "item-1768314108978"
+  },
+  {
+    "name": "Ashfang",
+    "imageUrl": "",
+    "tier": "Mythical",
+    "type": "Scythes",
+    "location": "World-21",
+    "description": "",
+    "get": {
+      "method": "Gachas",
+      "name": "Scythes"
+    },
+    "weaponStats": [
+      {
+        "type": "Damage",
+        "value": "3.5"
+      }
+    ],
+    "star1Stats": [
+      {
+        "type": "Damage",
+        "value": "7"
+      }
+    ],
+    "star2Stats": [
+      {
+        "type": "Damage",
+        "value": "10.5"
+      }
+    ],
+    "star3Stats": [
+      {
+        "type": "Damage",
+        "value": "17.5"
+      }
+    ],
+    "id": "item-1768314140882"
+  },
+  {
+    "name": "Phantom Requiem",
+    "imageUrl": "",
+    "tier": "Phantom",
+    "type": "Scythes",
+    "location": "World-21",
+    "description": "",
+    "get": {
+      "method": "Gachas",
+      "name": "Scythes"
+    },
+    "weaponStats": [
+      {
+        "type": "Damage",
+        "value": "4.25"
+      }
+    ],
+    "star1Stats": [
+      {
+        "type": "Damage",
+        "value": "8.5"
+      }
+    ],
+    "star2Stats": [
+      {
+        "type": "Damage",
+        "value": "12.75"
+      }
+    ],
+    "star3Stats": [
+      {
+        "type": "Damage",
+        "value": "21.25"
+      }
+    ],
+    "id": "item-1768314179186"
+  },
+  {
+    "name": "Stormreaver",
+    "imageUrl": "",
+    "tier": "Supreme",
+    "type": "Scythes",
+    "location": "World-21",
+    "description": "",
+    "get": {
+      "method": "Gachas",
+      "name": "Scythes"
+    },
+    "weaponStats": [
+      {
+        "type": "Damage",
+        "value": "5"
+      }
+    ],
+    "star1Stats": [
+      {
+        "type": "Damage",
+        "value": "10"
+      }
+    ],
+    "star2Stats": [
+      {
+        "type": "Damage",
+        "value": "15"
+      }
+    ],
+    "star3Stats": [
+      {
+        "type": "Damage",
+        "value": "25"
+      }
+    ],
+    "id": "item-1768314205947"
+  },
+  {
+    "name": "Cangetsu",
+    "imageUrl": "",
+    "tier": "Christmas",
+    "type": "Swords",
+    "location": "Christmas",
+    "description": "",
+    "get": {
+      "method": "Mob",
+      "name": ""
+    },
+    "weaponStats": [
+      {
+        "type": "Star Luck",
+        "value": "1"
+      },
+      {
+        "type": "Star Amount",
+        "value": "1"
+      }
+    ],
+    "star1Stats": [],
+    "star2Stats": [],
+    "star3Stats": [],
+    "id": "item-1768315076358"
+  },
+  {
+    "name": "Energy Ice Sword",
+    "imageUrl": "",
+    "tier": "Christmas",
+    "type": "Swords",
+    "location": "Christmas",
+    "description": "",
+    "get": {
+      "method": "Mob",
+      "name": ""
+    },
+    "weaponStats": [
+      {
+        "type": "Energy",
+        "value": "3x"
+      },
+      {
+        "type": "Christmas Materials Amount Multiply",
+        "value": "1x"
+      },
+      {
+        "type": "Christmas Damage ",
+        "value": "1x"
+      }
+    ],
+    "star1Stats": [],
+    "star2Stats": [],
+    "star3Stats": [],
+    "id": "item-1768315165582"
+  },
+  {
+    "name": "Frostmint Saber",
+    "imageUrl": "",
+    "tier": "Christmas",
+    "type": "Swords",
+    "location": "Christmas",
+    "description": "",
+    "get": {
+      "method": "Mob",
+      "name": ""
+    },
+    "weaponStats": [
+      {
+        "type": "Additional Gacha Rolls",
+        "value": "1"
+      }
+    ],
+    "star1Stats": [],
+    "star2Stats": [],
+    "star3Stats": [],
+    "id": "item-1768315217535"
+  },
+  {
+    "name": "Candy Cane Cutter",
+    "imageUrl": "",
+    "tier": "Christmas",
+    "type": "Swords",
+    "location": "Christmas",
+    "description": "",
+    "get": {
+      "method": "Mob",
+      "name": ""
+    },
+    "weaponStats": [
+      {
+        "type": "Coin",
+        "value": "0.1x"
+      }
+    ],
+    "star1Stats": [],
+    "star2Stats": [],
+    "star3Stats": [],
+    "id": "item-1768315256262"
+  },
+  {
+    "name": "Candy Scythe Cane",
+    "imageUrl": "",
+    "tier": "Christmas",
+    "type": "Scythes",
+    "location": "Christmas",
+    "description": "",
+    "get": {
+      "method": "Mob",
+      "name": ""
+    },
+    "weaponStats": [
+      {
+        "type": "Energy",
+        "value": "1.5x"
+      }
+    ],
+    "star1Stats": [],
+    "star2Stats": [],
+    "star3Stats": [
+      {
+        "type": "Energy",
+        "value": "3.5x"
+      }
+    ],
+    "id": "item-1768315332862"
   }
 ]
